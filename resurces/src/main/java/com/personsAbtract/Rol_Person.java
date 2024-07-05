@@ -14,6 +14,7 @@ public abstract class Rol_Person {
         return nombreRol;
     }
     public abstract String decirRol();
+    
     public class jugador extends Rol_Person{
         public jugador(){
             super("Jugador");
